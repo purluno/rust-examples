@@ -2,6 +2,7 @@ mod fib1;
 mod fib2;
 mod binsearch;
 mod quicksort;
+mod c_hello;
 
 mod readfile;
 
@@ -20,6 +21,7 @@ fn main() {
         "fib2" => fib2::run(),
         "binsearch" => binsearch::run(),
         "quicksort" => quicksort::run(),
-        _ => quicksort::run()
+        "c_hello" => c_hello::run(),
+        _ => fib1::run()
     }
 }
